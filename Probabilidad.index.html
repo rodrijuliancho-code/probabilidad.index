@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probabilidad en Ingeniería en Sistemas</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2998/2998283.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0099ff;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    nav {
+      background-color: #0c7eff;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    iframe {
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Probabilidad en Ingeniería en Sistemas</h1>
+  </header>
+
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#utilidad">Cómo Sirve</a>
+    <a href="#carrera">En mi Carrera</a>
+    <a href="#bayes">Teorema de Bayes</a>
+    <a href="#video">Video Explicativo</a>
+  </nav>
+
+  <section id="historia">
+    <h2>Historia</h2>
+    <p>El estudio de la probabilidad tiene sus raíces en el siglo XVII, cuando los matemáticos Blaise Pascal y Pierre de Fermat analizaron los juegos de azar para comprender cómo se podían predecir los resultados de eventos inciertos. Este trabajo sentó las bases del cálculo de probabilidades, que más adelante sería formalizado por Jakob Bernoulli y Pierre-Simon Laplace, quienes ampliaron la teoría y aplicaron sus principios a la estadística y a las ciencias naturales.</p>
+    <p>Durante el siglo XX, la probabilidad se consolidó como una herramienta esencial en múltiples disciplinas, incluyendo la ingeniería, la física y la informática. Con el auge de la computación, la probabilidad se integró en la teoría de la información, la inteligencia artificial, el análisis de datos y los sistemas expertos, permitiendo que las máquinas puedan aprender y tomar decisiones basadas en incertidumbre.</p>
+    <p>Hoy en día, la probabilidad es un pilar en el desarrollo de algoritmos, modelos predictivos y sistemas inteligentes que imitan la toma de decisiones humanas mediante datos y modelos estadísticos avanzados.</p>
+  </section>
+
+  <section id="utilidad">
+    <h2>Cómo Sirve</h2>
+    <p>La probabilidad es una herramienta matemática que permite cuantificar la incertidumbre y tomar decisiones informadas ante situaciones donde los resultados no son seguros. En términos prácticos, se utiliza para estimar la posibilidad de que ocurra un evento y evaluar el riesgo asociado a distintas decisiones.</p>
+    <p>Su aplicación va mucho más allá de los juegos de azar. En la ingeniería y la informática, la probabilidad se usa en áreas como:</p>
+    <ul>
+      <li><strong>Predicción y análisis de datos:</strong> ayuda a modelar comportamientos futuros a partir de datos históricos.</li>
+      <li><strong>Control de calidad:</strong> permite determinar el margen de error y la confiabilidad en la producción o ejecución de sistemas.</li>
+      <li><strong>Procesamiento de señales:</strong> analiza y filtra datos ruidosos en sistemas electrónicos o de comunicación.</li>
+      <li><strong>Simulación de procesos:</strong> representa escenarios reales en entornos controlados para evaluar posibles resultados.</li>
+    </ul>
+    <p>En términos más técnicos, los modelos probabilísticos permiten a los ingenieros diseñar sistemas que no solo reaccionen a eventos conocidos, sino que también se adapten y respondan a condiciones inesperadas. Por ejemplo, en el aprendizaje automático, la probabilidad es clave para determinar la confianza en las predicciones de un modelo.</p>
+  </section>
+
+  <section id="carrera">
+    <h2>Probabilidad en Ingeniería en Sistemas</h2>
+    <p>En la Ingeniería en Sistemas, la probabilidad es una herramienta fundamental para analizar la incertidumbre y optimizar procesos dentro de los sistemas computacionales. Se aplica en inteligencia artificial, minería de datos, redes neuronales, seguridad informática, sistemas de recomendación y análisis predictivo.</p>
+    <p>Por ejemplo, en <strong>aprendizaje automático</strong> se usan algoritmos que dependen de distribuciones de probabilidad para clasificar datos o predecir comportamientos futuros. En <strong>seguridad informática</strong>, los modelos probabilísticos ayudan a detectar patrones anómalos que pueden representar amenazas o ataques cibernéticos. En <strong>análisis de rendimiento</strong>, se usan para estimar tiempos de respuesta de sistemas o el tráfico en redes.</p>
+    <p>Un caso práctico es el <strong>análisis bayesiano en inteligencia artificial</strong>, donde se emplea el Teorema de Bayes para actualizar la probabilidad de una hipótesis a medida que se reciben nuevos datos. Por ejemplo, los filtros de spam en los correos electrónicos utilizan esta técnica para identificar mensajes no deseados con base en palabras clave y patrones de comportamiento.</p>
+    <p>Otro ejemplo importante es la <strong>simulación de Monte Carlo</strong>, un método probabilístico usado para evaluar el comportamiento de sistemas complejos mediante la generación de múltiples escenarios aleatorios, ayudando a los ingenieros a tomar decisiones más informadas.</p>
+  </section>
+
+  <section id="bayes">
+    <h2>Teorema de Bayes</h2>
+    <p>El Teorema de Bayes es una de las herramientas más poderosas en la teoría de la probabilidad. Permite actualizar las creencias o probabilidades iniciales sobre un evento a medida que se dispone de nueva información. En términos matemáticos, se expresa como:</p>
+    <p><strong>P(A|B) = [P(B|A) × P(A)] / P(B)</strong></p>
+    <p>Donde:</p>
+    <ul>
+      <li><strong>P(A|B):</strong> Probabilidad de que ocurra A dado que B ha ocurrido (probabilidad posterior).</li>
+      <li><strong>P(B|A):</strong> Probabilidad de que ocurra B si A ocurre (verosimilitud).</li>
+      <li><strong>P(A):</strong> Probabilidad inicial de A (probabilidad previa).</li>
+      <li><strong>P(B):</strong> Probabilidad total de que ocurra B.</li>
+    </ul>
+    <p>En la Ingeniería en Sistemas, este teorema se aplica en áreas como el <strong>machine learning</strong>, la <strong>detección de fraudes</strong> y los <strong>sistemas de diagnóstico automatizado</strong>. Por ejemplo, un clasificador bayesiano puede determinar si una transacción es fraudulenta basándose en datos anteriores de comportamiento del usuario.</p>
+    <p><strong>Ejemplo práctico:</strong> Supón que un sistema de correo detecta que el 5% de los mensajes son spam. Si un mensaje contiene la palabra “gratis”, y el 70% de los correos spam la tienen, pero solo el 10% de los correos normales también, el Teorema de Bayes permite calcular la probabilidad de que un correo con la palabra “gratis” sea spam. Este cálculo es la base del filtrado inteligente de correo.</p>
+  </section>
+
+  <section id="video">
+    <h2>Video Explicativo</h2>
+    <p>A continuación puedes ver un video sobre la probabilidad y su aplicación en Ingeniería en Sistemas. Solo debes reemplazar el enlace de YouTube dentro del código con el que prefieras:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video de probabilidad" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+</body>
+</html>
+
